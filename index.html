@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset = "UTF-8">
-      <link rel = 'stylesheet' href="style.css">
-    </head>
-    <body>
-        <script src="Rock-Paper-Scissors.js"></script>
-    </body>
+<html lang="en-us">
+<head>
+    <meta charset = "UTF-8">
+    <link rel = 'stylesheet' href="./style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div id="gameDiv">
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h2 class="gameText" id="playerScore">Number of Player Wins:</h2>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h2 class="gameText" id="computerScore"> Number of CPU Wins:</h2>
+        <h1 class="gameText" id="resultText"></h1> 
 
+        <button class="choiceBtn" id="rock">ROCK</button>
+        <button class="choiceBtn" id="paper">PAPER</button>
+        <button class="choiceBtn" id="scissors">SCISSORS</button>
+    </div>
+    <script src="Rock-Paper-Scissors.js"></script>
+</body>
 </html>

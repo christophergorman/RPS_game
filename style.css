@@ -1,0 +1,36 @@
+#gameDiv {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    height: 100px;
+    margin-right: 50px; 
+}
+
+#rock {
+    background-color: rgba(189, 93, 20, 0.856);
+}
+#rock:hover {
+    background-color: yellowgreen;
+}
+#paper {
+    background-color: antiquewhite;
+}
+#paper:hover{ 
+    background-color: blueviolet;
+}
+#scissors {
+    background-color: silver;
+}
+#scissors:hover {
+    background-color: crimson;
+}
+body {
+    background-color: darkcyan;
+}
+.choiceBtn:hover {
+    opacity: 80%;
+}
